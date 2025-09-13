@@ -15,4 +15,6 @@ public class Token extends BaseModel {
     private Date expiryDate;
     @ManyToOne
     private User user;
+
+
 }
